@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.tab-item-container {
+  padding: 0;
+}
+
+.tab-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 14px;
+  color: #7b8794;
+  font-weight: 500;
+  border-bottom: 2px solid #dfe2e5;
+  padding: 0px 16px 4px 16px;
+}
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 16px;
+    padding: 0px 26px 8px 26px;
+  }
+}
+.active {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .active {
+    padding-bottom: 12px;
+  }
+}
